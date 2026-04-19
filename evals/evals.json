@@ -1,0 +1,25 @@
+{
+  "skill_name": "linkedin-post-writer",
+  "evals": [
+    {
+      "id": 1,
+      "name": "thesis-from-topic",
+      "prompt": "Write me a LinkedIn post about why founders should say no to most investor meetings, not yes. I think most early-stage founders waste enormous amounts of time in pitch meetings that were never going to convert, and the cost isn't just the hour of the meeting — it's the context switch, the prep, the emotional swing. Target startup founders.",
+      "expected_output": "A 300-600 word LinkedIn post with a strong hook, one anchor example (real or a concrete archetype), a named framework or sticky concept, short paragraphs, and a direct CTA to founders ending with a reflective question. No hashtags. No emojis.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "news-reaction",
+      "prompt": "Turn this into a LinkedIn post: OpenAI just launched their Agents SDK and everyone's losing their minds about it. My take is that the real story isn't the SDK itself — it's that the agent stack is consolidating way faster than anyone expected, and startups building at the infrastructure layer are about to get squeezed hard. Audience: startup founders and technical CEOs.",
+      "expected_output": "A post that doesn't summarize the news but reacts with a contrarian/non-obvious angle. Should introduce a framework or named concept for how to think about the consolidation. Should end with direct address to founders/CEOs.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "anecdote-to-framework",
+      "prompt": "Write me a LinkedIn post based on this: I had coffee yesterday with a second-time founder who told me he just fired his head of sales after 18 months — something he admits he should have done at month 6. He said 'the cost of tolerating a B-player in a key seat is 10x what you think it is, and I keep re-learning this.' Turn this into a post about tolerating underperformance. Audience: startup CEOs.",
+      "expected_output": "The anecdote is used as the anchor example. The post generalizes to a framework with a named concept (e.g., 'the tolerance tax' or similar). Direct CTA to CEOs. Declarative and confident tone."
+    }
+  ]
+}
