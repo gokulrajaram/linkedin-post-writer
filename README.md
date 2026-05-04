@@ -1,6 +1,6 @@
 # linkedin-post-writer
 
-A [Claude Code](https://claude.com/claude-code) skill for drafting long-form LinkedIn posts in the voice of a seasoned operator/investor, aimed at an audience of startup founders and tech CEOs.
+A [Claude Code](https://claude.com/claude-code) and Codex skill for drafting long-form LinkedIn posts in the voice of a seasoned operator/investor, aimed at an audience of startup founders and tech CEOs.
 
 This is an opinionated skill. It enforces a specific structure (hook → setup → analysis → framework → declarative CTA), bans common AI tells (em-dashes as punctuation, negative parallelism like "it's not X, it's Y", "think about…" openers, trailing questions), and always runs a humanizer pass before returning the draft.
 
